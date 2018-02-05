@@ -32,5 +32,4 @@ def find_a(arr)
   arr.map |ele|
   if ele[0] == a
   end
-  end
 end
