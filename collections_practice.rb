@@ -54,5 +54,5 @@ def add_s(arr)
   newArr.map do |ele|
     ele + "s"
   end
-  return first + second + newArr 
+  return first + second + newArr
 end
