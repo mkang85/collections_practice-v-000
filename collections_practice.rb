@@ -42,7 +42,7 @@ end
 def sum_array(arr)
   count = 0
   arr.each do |ele|
-    ele += count
+    count += ele
   end
   return count
 end
