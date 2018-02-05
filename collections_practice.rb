@@ -24,6 +24,6 @@ end
 
 def kesha_maker(arr)
   arr.each do |ele|
-    ele.slice(0, 2) + "$" + ele.slice(3, -1)
+    ele.slice(0, 2) + "$" + ele.slice(4, -1)
   end
 end
