@@ -33,3 +33,4 @@ def find_a(arr)
   if ele[0] == a
   end
 end
+end
