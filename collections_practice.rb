@@ -31,6 +31,7 @@ end
 def find_a(arr)
   arr.map do |ele|
   if ele[0] == "a"
+    ele
   end
-end
+  end
 end
