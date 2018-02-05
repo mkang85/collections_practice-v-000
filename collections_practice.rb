@@ -53,6 +53,6 @@ def add_s(arr)
       element
     else
       element + "s"
+    end
   end
-end
 end
