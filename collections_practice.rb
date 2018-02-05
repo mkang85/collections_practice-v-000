@@ -30,7 +30,7 @@ end
 
 def find_a(arr)
   arr.map do |ele|
-  if ele[0] == a
+  if ele[0] == "a"
   end
 end
 end
