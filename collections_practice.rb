@@ -29,7 +29,7 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.map |ele|
+  arr.map do |ele|
   if ele[0] == a
   end
 end
