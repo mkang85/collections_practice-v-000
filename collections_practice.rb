@@ -51,7 +51,7 @@ def add_s(arr)
   first = arr[0] + "s"
   second = arr[1]
   newArr = arr[2..-1]
-  newArr.each do |ele|
+  newArr.map do |ele|
     ele + "s"
   end
   return first + second + newArr 
