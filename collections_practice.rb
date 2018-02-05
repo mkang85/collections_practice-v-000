@@ -55,5 +55,5 @@ def add_s(arr)
   newArr.each do |ele|
     newArr2 << ele + "s"
   end
-  return first + second + newArr2
+  return [first + second + newArr2]
 end
