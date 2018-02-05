@@ -29,9 +29,11 @@ def kesha_maker(arr)
 end
 
 def find_a(arr)
-  arr.map do |ele|
+  newArr = []
+  arr.each do |ele|
   if ele[0] == "a"
-    ele
+    newArr << ele
   end
   end
+  return newArr
 end
