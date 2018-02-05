@@ -48,12 +48,10 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  first = arr[0] + "s"
-  second = arr[1]
-  newArr = arr[2..-1]
-  newArr2 = []
-  newArr.each do |ele|
-    newArr2 << ele + "s"
+  arr.each_with_index.collect do |element, index|
+    if element == arr[1]
+      element
+    else
+      element + "s"
   end
-  return [first + second + newArr2]
 end
