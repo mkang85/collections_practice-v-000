@@ -37,3 +37,10 @@ def find_a(arr)
   end
   return newArr
 end
+
+
+def sum_array(arr)
+  arr.each do |ele|
+    ele + ele
+  end
+end
